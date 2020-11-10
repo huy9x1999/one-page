@@ -1,0 +1,15 @@
+.header__logo{
+    height: 3rem;
+    a{
+        display: flex;
+        line-height: 3rem;
+        align-items: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $color-white;
+        img{
+            margin-right: 1rem;
+        }
+    }
+}

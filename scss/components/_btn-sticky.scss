@@ -1,0 +1,11 @@
+.btn-sticky{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    &__prev{
+        left: 50px;
+    }
+    &__next{
+        right: 50px;
+    }
+}

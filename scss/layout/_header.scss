@@ -1,0 +1,16 @@
+.header{
+    background-color: $color-dark;
+    color: $color-white;
+    .row{
+        align-items: center;
+    }
+    ul{
+        li{
+            &:not(:first-child){
+                margin-left: 2rem;
+            }
+            
+        }
+        
+    }
+}

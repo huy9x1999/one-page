@@ -1,0 +1,37 @@
+.menu {
+  flex-grow: 1;
+  text-align: right;
+  li {
+    display: inline-block;
+    padding: 20px 0px;
+    a {
+      font-size: 1.4rem;
+      color: $color-grey;
+      text-transform: uppercase;
+      &:hover {
+        color: $color-white;
+      }
+    }
+    a.active {
+      color: $color-white;
+    }
+  }
+  &--primary {
+    li {
+      display: inline-block;
+      padding: 20px 0px;
+      a {
+        font-size: 1.4rem;
+        color: $color-white;
+        text-transform: uppercase;
+        &:hover {
+          color: $color-blue-light;;
+          
+        }
+      }
+      a.active {
+        color: $color-blue-light;
+      }
+    }
+  }
+}

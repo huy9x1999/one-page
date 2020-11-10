@@ -1,0 +1,55 @@
+.footer {
+  padding: 10rem 0;
+  background-color: #282828;
+  &__form {
+    width: 80%;
+    p {
+      margin-bottom: 2rem;
+    }
+    button ,input{
+        outline: none;
+        display: inline-block;
+        border: none;
+        font-size: 1.4rem;
+        color: $color-white;
+    }
+    input {
+      
+      background-color: transparent;
+      border: 1px solid $color-grey;
+      padding: 1rem 2rem;
+      width: 70%;
+      font-size: 1.4rem;
+     
+    }
+    button {
+      background-color: $color-blue-light;
+      padding: 1rem;
+      width: 4rem;
+      height: 3.9rem;
+      font-size: 1.5rem;
+    }
+  }
+  &__list{
+      flex-grow: auto;
+           margin-right: 3rem;
+           li{
+            padding: 0 1.5rem 1rem 1.5rem;
+            opacity: .8;
+           }
+           a{
+               color: $color-white;
+               font-size: 1.6rem;
+           }
+  }
+ &__icon-circle{
+     li{
+         display: inline-block;
+         opacity: .2;
+         width: 4rem;
+         height: 4rem;
+         border-radius: 50%;
+         border: 1px solid $color-grey;
+     }
+ }
+}

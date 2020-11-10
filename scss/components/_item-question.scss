@@ -1,0 +1,37 @@
+.item-question{
+    position: relative;
+    color: $color-white;
+    padding: 4rem 15rem 4rem 4rem;
+    background-color: #212121;
+    ul{
+        list-style:disc;
+        padding-inline-start: 1.5rem;
+        li{
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: $color-grey;
+        }
+    }
+    &--active{
+        background-color: #1e1e1e;
+    }
+    .mess{
+        &--active{
+            background-image:url('../img/001-discuss-issue.png') ;
+        }
+        display: block;
+        position: absolute;
+        right: 3rem;
+        top: 4rem;
+        width: 6rem;
+        height: 5.5rem;
+        background-image:url('../img/001-discuss-issue\ copy.png') ;
+        background-size: cover;
+        object-fit: cover;
+        transition: .5s ease-in-out;
+    }
+    &:hover .mess{
+        background-image:url('../img/001-discuss-issue.png') ;
+    }
+}
+

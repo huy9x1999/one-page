@@ -1,0 +1,19 @@
+.header__icon{
+    li{
+        font-size: 1.6rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+    &-toggle{
+        display: none !important;
+        width: 4rem;
+        height: 2rem;
+    }
+}
+@media (max-width:991px){
+    .header__icon{
+        &-toggle{
+            display: inline-block !important;
+        }
+    }
+}
